@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ExergueDirective } from './directives/exergue.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ExergueDirective
   ],
   imports: [
     BrowserModule,
